@@ -9,17 +9,17 @@
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-dark bg-gradient navegador">
+      <nav class="navbar navbar-expand-lg bg-dark bg-gradient navegador fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand fs-3 text-light" href="#">INICIO</a>
+          <a class="navbar-brand fs-5 text-light" href="#inicio">INICIO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav fs-5">
-              <a class="nav-link active text-light" aria-current="page" href="#">PROYECTOS</a>
-              <a class="nav-link text-light" href="#">SKILLS</a>
-              <a class="nav-link text-light" href="#">CONTACTO</a>
+            <div class="navbar-nav fs-6">
+              <a class="nav-link active text-light" aria-current="page" href="#proyectos">PROYECTOS</a>
+              <a class="nav-link text-light" href="#skills">SKILLS</a>
+              <a class="nav-link text-light" href="#contacto">CONTACTO</a>
 
             </div>
           </div>
@@ -27,19 +27,152 @@
       </nav>
     </header>
 
-    <section class="d-flex justify-content-center vh-100">
+    <section id="inicio" class="d-flex justify-content-center vh-100">
       <div class="d-flex align-items-center section-1">
-        <img class="rounded-circle img-fluid shadow-lg mx-auto img-main" src="multimedia/image_processing20230516-1190-q1seyz.gif" alt="" height="500px">
+        <img class="rounded-circle img-fluid shadow-lg mx-5 img-main" src="multimedia/image_processing20230516-1190-q1seyz.gif" alt="" height="500px">
         <div class="d-flex flex-column justify-content-center align-items-center">
           <h1 class="text-center">Diseñador web, fullstacks & Data Science</h1>
           <p>Entuciasta del diseño Web</p>
 
           <div class="d-flex">
-            <button class="mx-3">CV</button>
-            <button class="mx-3">Agenda una cita</button>
+            <a target="_blank" href="https://senatipe-my.sharepoint.com/personal/1523563_senati_pe/Documents/Documents/1_MI%20MUNDO/YO/DOCUMENTOS%20PARA%20TRAMITES/CV/Curriculum.pdf"><button class="mx-3 btn btn-outline-dark">CV</button></a>
+            <a target="_blank" href="https://wa.link/bjva95"><button class="mx-3 btn btn-outline-dark">Agenda una cita</button></a>
           </div>
         </div>
       </div>
+    </section>
+
+    <section id="proyectos" class="vh-100 section-secondary">
+          <h3 class="text-center py-5">PROYECTOS</h3>
+
+          <div>
+            <div class="row row-cols-1 row-cols-md-2 g-5 mx-5 d-flex justify-content-center">
+              <div class="col main-card">
+                <div class="card text-bg-secondary shadow-lg">
+                  <img src="multimedia/cinepolis.jpg" class="card-img-top img-card" alt="CINEPLANET" height="200px">
+                  <div class="card-body">
+                    <h5 class="card-title">Cinepolis</h5>
+                    <p class="card-text card-texto">Cinépolis es una empresa mexicana dedicada a la exhibición de películas fundada en 1971.</p>
+                    <a target="_blank" href="https://cinepolis.com.pe" class="btn btn-light">Go link</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col main-card">
+                <div class="card text-bg-secondary shadow-lg">
+                  <img src="multimedia/CINEPLANET.jpg" class="card-img-top " alt="CINEPLANET" height="200px">
+                  <div class="card-body">
+                    <h5 class="card-title">Cineplanet</h5>
+                    <p class="card-text card-texto">Cineplanet es una cadena peruana de cines propiedad de Intercorp.</p>
+                    <a target="_blank" href="https://www.cineplanet.com.pe/peliculas" class="btn btn-light">Go link</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col main-card">
+                <div class="card text-bg-secondary shadow-lg">
+                  <img src="multimedia/cinemark.jpg" class="card-img-top " alt="CINEMARK" height="200px">
+                  <div class="card-body">
+                    <h5 class="card-title">Cinemark</h5>
+                    <p class="card-text card-texto">Cinemark es una cadena de cines de propiedad de Cinemark Holdings, Inc.</p>
+                    <a target="_blank" href="https://www.cinemark-peru.com/?tag=740" class="btn btn-light">Go link</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col main-card">
+                <div class="card text-bg-secondary shadow-lg">
+                  <img src="multimedia/UVK.jpg" class="card-img-top " alt="UVK" height="200px">
+                  <div class="card-body">
+                    <h5 class="card-title">UVK Multicines</h5>
+                    <p class="card-text card-texto">UVK Multicines es una cadena de cines peruanos surgida en 1998.</p>
+                    <a target="_blank" href="https://www.uvk.pe" class="btn btn-light">Go link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    
+    <section id="skills" class="vh-100 section-secondary-1">
+
+      <h2 class="text-center py-5">Mis habilidades tecnologicas</h2>
+
+      <div class="d-flex text-center flex-column">
+        <div class="card text-bg-dark mb-3 shadow-lg m-auto card-tecnologia-1" style="max-width: 350px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="multimedia/php_15714805.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">PHP</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card text-bg-dark mb-3 shadow-lg m-auto card-tecnologia-2" style="max-width: 350px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="multimedia/html_15714757.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card text-bg-dark mb-3 shadow-lg m-auto card-tecnologia-3" style="max-width: 350px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="multimedia/css_15714769.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card text-bg-dark mb-3 shadow-lg m-auto card-tecnologia-4" style="max-width: 350px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="multimedia/js_15714765.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">JS</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="contacto" class="vh-100 section-secondary-2">
+
+      <div class="d-flex flex-column align-items-center">
+        <div>
+          <img class="rounded-4 shadow-lg" src="multimedia/Foto perfil.jpeg" alt="" width="270px">
+          <h3 class="text-center py-5">Lic. Diego Ramirez</h3>
+        </div>
+        <div class="d-flex flex-column align-items-center py-5">
+          <h3 class="py-3 text-center">Me puedes encontrar en:</h3>
+          <div>
+            <a target="_blank"  href="https://github.com/nitro4741"><img src="multimedia/github-svgrepo-com.svg" alt="" height="50px" class="icon-footer"></a>
+            <a target="_blank"  href="https://www.linkedin.com/in/diego-ramirez-ab99a4180/"><img src="multimedia/linkedin-fill-svgrepo-com.svg" alt="" height="50px" class="icon-footer"></a>
+            <a target="_blank"  href="mailto:1523563@senati.pe.com"><img src="multimedia/mail-check-svgrepo-com.svg" alt="" height="50px" class="icon-footer"></a>
+            <a target="_blank"  href="https://wa.link/bjva95"><img src="multimedia/whatsapp-fill-svgrepo-com.svg" alt="" height="50px" class="icon-footer"></a>
+          </div>
+        </div>
+        <div>
+          <p><i><img src="multimedia/copyright-svgrepo-com.svg" alt="" width="20px"></i>Copyright 2024</p>
+        </div>
+      </div>
+      
+
     </section>
 
 

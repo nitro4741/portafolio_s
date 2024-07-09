@@ -1,9 +1,46 @@
+body {
+    background-image: linear-gradient(white, rgb(110, 110, 110));
+}
+
+.section-secondary {
+    padding-top: 10%;
+}
+
+.section-secondary-1 {
+    padding-top: 10%;
+}
+
 .navegador {
     width: 100%;
 }
 .img-main {
     height: 400px;
     object-fit: fill;
+}
+
+.card-tecnologia-1 {
+    left: 20%;
+}
+
+.card-tecnologia-2 {
+    right: 20%;
+}
+
+.card-tecnologia-3 {
+    left: 20%;
+}
+    
+.card-tecnologia-4 {
+    right: 20%;
+}
+
+
+.main-card {
+    max-width: 400px;
+}
+
+.section-secondary-2 {
+    padding: 7rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -19,5 +56,41 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+  }
+
+  @media (max-width: 1710px) {
+    .card-texto {
+        display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card-tecnologia-1 {
+        width: 8rem;;
+    }
+    
+    .card-tecnologia-2 {
+        width: 8rem;;
+    }
+    
+    .card-tecnologia-3 {
+        width: 8rem;;
+    }
+        
+    .card-tecnologia-4 {
+        width: 8rem;;
+    }
+
+    .section-secondary-1 {
+        margin-top: 100%;
+    }
+
+    .section-secondary-2 {
+        margin-top: 100%;
+    }
+
+    .icon-footer {
+        height: 40px;
     }
   }
